@@ -6,7 +6,7 @@ $(document).ready(function(){
         autoplaySpeed: 1500,
         arrows: false,
         dots: false,
-        pauseOnHover: true,
+        pauseOnHover: false,
         responsive: [{
             breakpoint: 768,
             settings: {
@@ -20,3 +20,13 @@ $(document).ready(function(){
         }]
     });
 });
+
+function changeColor(){
+  if (document.getElementById('body').style.backgroundColor === 'cadetblue') {
+    document.getElementById('body').style.backgroundColor = 'ivory'
+  }
+  else{
+    document.getElementById('body').style.backgroundColor = 'cadetblue';
+  }
+  
+}

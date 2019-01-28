@@ -2,6 +2,8 @@
 #body{
 	background-color: ivory;
 }
+
+
 footer {
 	background-color: rgba(0, 0, 0, 0.7);
 
@@ -61,9 +63,29 @@ h3{
 	margin: 20px;
 	margin: auto;
 }
-.content h2 {
-	font-family: 'Exo', sans-serif;
-	text-align: center;
+.card{
+    background-color: red;
+}
+.container #eduCaption{
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+}
+.container #skillsCaption{
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+}
+.container #projectsCaption{
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+}
+.list_skills {
+    font-family: 'Exo', sans-serif;
+}
+h2{
+    font-family: 'Exo', sans-serif;
+}
+.card {
+    font-family: 'Exo', sans-serif;
 }
 
 /***  desired colors for svg  ***/
@@ -94,6 +116,7 @@ h3{
 #profile {
 	height: 200px;
 }
+
 
 /*slider. Inspired by: https://codepen.io/mdashikar/pen/VWPvgE */
 /***************************************************************/

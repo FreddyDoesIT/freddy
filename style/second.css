@@ -1,0 +1,122 @@
+
+#body{
+	background-color: white;
+}
+footer {
+	background-color: rgba(0, 0, 0, 0.7);
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+footer p{
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px; 
+}
+h3{
+	padding: 10px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+}
+.my_name{
+	font-family: 'Exo', sans-serif;
+	font-size: 70px;
+	font-weight: 700;
+	color: white;
+}
+.hobbies {
+    font-family: 'Exo', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+}
+.navbar-nav a {
+	font-family: 'Exo', sans-serif;
+	font-weight: bold;
+}
+
+.btn {
+	font-family: 'Exo', sans-serif;
+}
+.parallax {
+	/* The image used */
+	background-image: linear-gradient(
+		rgba(0, 0, 0, 0.4),
+		rgba(0, 0, 0, 0)
+		),url('../image/basketball.jpg');
+
+
+	/* Set a specific height */
+	min-height: 660px; 
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.description{
+	background: rgba(0, 0, 0, 0.3);
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	padding: 20px;
+	margin: 20px;
+	margin: auto;
+}
+.content h2 {
+	font-family: 'Exo', sans-serif;
+	text-align: center;
+}
+
+#table{
+    width:100%;
+    display:table;
+}
+
+#top {
+    display: table-cell;
+    position: relative;
+    width:100%;
+    height: 100px;
+    background-color: white;
+    vertical-align:middle;
+}
+
+#top h2{
+    text-align: center;
+    color: black;
+    font-family:'Exo', sans-serif;
+    font-family: 'Exo', sans-serif;
+} 
+
+/***  desired colors for svg  ***/
+.footer-icons svg{
+	max-height: 64px;
+	width: auto;
+	display: inline;
+}
+/*.footer-icons{
+	color: white;
+}
+.footer-icons:hover{
+	color: deepskyblue;
+}*/
+/****  magic trick  *****/
+.footer-icons svg path{
+	fill: floralwhite;
+}
+.footer-fixed{
+	height: 50px;
+	background-color: teal;
+}
+
+#general{
+	font-size: 25px;
+}
+#profile {
+	height: 200px;
+}
