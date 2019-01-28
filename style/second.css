@@ -1,6 +1,7 @@
-
-#body{
-	background-color: white;
+h3{
+	padding: 10px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
 }
 footer {
 	background-color: rgba(0, 0, 0, 0.7);
@@ -17,11 +18,7 @@ footer p{
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 20px; 
 }
-h3{
-	padding: 10px;
-	font-family: 'PT Sans', sans-serif;
-	font-weight: 700;
-}
+
 .my_name{
 	font-family: 'Exo', sans-serif;
 	font-size: 70px;
@@ -29,10 +26,10 @@ h3{
 	color: white;
 }
 .hobbies {
-    font-family: 'Exo', sans-serif;
-    font-size: 70px;
-    font-weight: 700;
-    color: white;
+	font-family: 'Exo', sans-serif;
+	font-size: 70px;
+	font-weight: 700;
+	color: white;
 }
 .navbar-nav a {
 	font-family: 'Exo', sans-serif;
@@ -71,41 +68,11 @@ h3{
 	font-family: 'Exo', sans-serif;
 	text-align: center;
 }
-
-#table{
-    width:100%;
-    display:table;
-}
-
-#top {
-    display: table-cell;
-    position: relative;
-    width:100%;
-    height: 100px;
-    background-color: white;
-    vertical-align:middle;
-}
-
-#top h2{
-    text-align: center;
-    color: black;
-    font-family:'Exo', sans-serif;
-    font-family: 'Exo', sans-serif;
-} 
-
-/***  desired colors for svg  ***/
 .footer-icons svg{
 	max-height: 64px;
 	width: auto;
 	display: inline;
 }
-/*.footer-icons{
-	color: white;
-}
-.footer-icons:hover{
-	color: deepskyblue;
-}*/
-/****  magic trick  *****/
 .footer-icons svg path{
 	fill: floralwhite;
 }
@@ -113,10 +80,24 @@ h3{
 	height: 50px;
 	background-color: teal;
 }
-
+#body{
+	background-color: white;
+}
 #general{
 	font-size: 25px;
 }
 #profile {
 	height: 200px;
 }
+#table{
+	width:100%;
+	display:table;
+}
+
+#top h2{
+	position: relative;
+	text-align: center;
+	color: black;
+	font-family:'Exo', sans-serif;
+	font-family: 'Exo', sans-serif;
+} 

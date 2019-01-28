@@ -1,12 +1,5 @@
-
-#body{
-	background-color: ivory;
-}
-
-
 footer {
 	background-color: rgba(0, 0, 0, 0.7);
-
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
 	background-position: center;
@@ -19,17 +12,26 @@ footer p{
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 20px; 
 }
+
+h2{
+  text-align:center;
+  padding: 30px;
+  font-family: 'Exo', sans-serif;
+}
+
 h3{
 	padding: 10px;
 	font-family: 'PT Sans', sans-serif;
 	font-weight: 700;
 }
+
 .my_name{
 	font-family: 'Exo', sans-serif;
 	font-size: 70px;
 	font-weight: 700;
 	color: white;
 }
+
 .navbar-nav a {
 	font-family: 'Exo', sans-serif;
 	font-weight: bold;
@@ -38,13 +40,13 @@ h3{
 .btn {
 	font-family: 'Exo', sans-serif;
 }
+
 .parallax {
 	/* The image used */
 	background-image: linear-gradient(
 		rgba(0, 0, 0, 0.4),
 		rgba(0, 0, 0, 0)
 		),url('../image/background.jpg');
-
 
 	/* Set a specific height */
 	min-height: 500px; 
@@ -55,6 +57,7 @@ h3{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
 .description{
 	background: rgba(0, 0, 0, 0.3);
 	color: white;
@@ -63,44 +66,39 @@ h3{
 	margin: 20px;
 	margin: auto;
 }
-.card{
-    background-color: red;
-}
+
 .container #eduCaption{
     font-family: 'Exo', sans-serif;
     font-weight: bold;
 }
+
 .container #skillsCaption{
     font-family: 'Exo', sans-serif;
     font-weight: bold;
 }
+
 .container #projectsCaption{
     font-family: 'Exo', sans-serif;
     font-weight: bold;
 }
+
 .list_skills {
     font-family: 'Exo', sans-serif;
 }
-h2{
-    font-family: 'Exo', sans-serif;
-}
+
 .card {
     font-family: 'Exo', sans-serif;
 }
-
+.school-logo {
+    max-width: 30%;
+    float: left;
+}
 /***  desired colors for svg  ***/
 .footer-icons svg{
 	max-height: 64px;
 	width: auto;
 	display: inline;
 }
-/*.footer-icons{
-	color: white;
-}
-.footer-icons:hover{
-	color: deepskyblue;
-}*/
-/****  magic trick  *****/
 .footer-icons svg path{
 	fill: floralwhite;
 }
@@ -108,8 +106,13 @@ h2{
 	height: 50px;
 	background-color: teal;
 }
+.footer-text {
 
+}
 
+#body{
+    background-color: ivory;
+}
 #general{
 	font-size: 25px;
 }
@@ -120,10 +123,7 @@ h2{
 
 /*slider. Inspired by: https://codepen.io/mdashikar/pen/VWPvgE */
 /***************************************************************/
-h2{
-  text-align:center;
-  padding: 20px;
-}
+
 /* Slider */
 
 .slick-slide {
@@ -131,7 +131,7 @@ h2{
 }
 
 .slick-slide img {
-    width: 100%;
+    width: 70%;
 }
 
 .slick-slider
