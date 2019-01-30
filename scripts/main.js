@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.customer-logos').slick({
+    $('.skills-logos').slick({
         slidesToShow: 6,
         slidesToScroll: 1,
         autoplay: true,
