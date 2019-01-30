@@ -1,4 +1,4 @@
-#  Intro to the [Home Page of Frederick](https://github.com/FreddyDoesIT/freddy)
+#  Intro to the [Home Page of Frederick](https://freddydoesit.github.io/freddy/)
 
 Come on and check out my personal webpage where you can for sure find a new Freddy you never know. :smirk:
 
@@ -29,10 +29,10 @@ For this project I have appiled:
 * Google fonts
 
 ## Deployment
-* For this project, you can click  [here](https://github.com/FreddyDoesIT/freddy) to check out the demostration. 
+* For this project, you can click  [here](https://freddydoesit.github.io/freddy/) to check out the demostration. 
 
 ## Author
-[Frederick Lyu](https://github.com/FreddyDoesIT/freddy)
+[Frederick Lyu](https://freddydoesit.github.io/freddy/)
 
 ## Screenshot
 ![screenshot](image/screenshot.gif)
