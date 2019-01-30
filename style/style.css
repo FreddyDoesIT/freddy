@@ -67,32 +67,75 @@ h3{
 	margin: auto;
 }
 
-.container #eduCaption{
+.project1 {
+    /* The image used */
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0)
+        ),url('../image/projects/stock6.png');
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project2 {
+    /* The image used */
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0)
+        ),url('../image/projects/movie7.jpeg');
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project3 {
+    /* The image used */
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0)
+        ),url('../image/projects/freecell6.jpg');
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container #eduCaption, .container #skillsCaption, .container #projectsCaption{
     font-family: 'Exo', sans-serif;
     font-weight: bold;
 }
 
-.container #skillsCaption{
-    font-family: 'Exo', sans-serif;
-    font-weight: bold;
-}
-
-.container #projectsCaption{
-    font-family: 'Exo', sans-serif;
-    font-weight: bold;
-}
-
-.list_skills {
+.list_skills, .card {
     font-family: 'Exo', sans-serif;
 }
 
-.card {
+.project1, .project2, .project3 {
     font-family: 'Exo', sans-serif;
 }
+
 .school-logo {
     max-width: 30%;
     float: left;
 }
+
 /***  desired colors for svg  ***/
 .footer-icons svg{
 	max-height: 64px;
@@ -105,9 +148,6 @@ h3{
 .footer-fixed{
 	height: 50px;
 	background-color: teal;
-}
-.footer-text {
-
 }
 
 #body{
