@@ -48,6 +48,9 @@ $ open index.html
 ### feature
 ![screenshot](image/feature.gif)
 
+## Acknowledgement
+Inspired by [CS 5610 Web Development](http://johnguerra.co/classes/webDevelopment_spring_2019/)
+
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
