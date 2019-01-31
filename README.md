@@ -37,7 +37,7 @@ $ mkdir webpage
 $ cd webpage
 $ git clone https://github.com/FreddyDoesIT/freddy.git
 $ cd freddy
-$ open index.html
+$ reload -b
 ```
 ## Author
 [Frederick Lyu](https://freddydoesit.github.io/freddy/)
