@@ -43,7 +43,9 @@ $ open index.html
 [Frederick Lyu](https://freddydoesit.github.io/freddy/)
 
 ## Screenshot
+###screen
 ![screenshot](image/screenshot-final.gif)
+###feature
 ![screenshot](image/feature.gif)
 
 ## License
