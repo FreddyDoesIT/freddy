@@ -43,7 +43,8 @@ $ open index.html
 [Frederick Lyu](https://freddydoesit.github.io/freddy/)
 
 ## Screenshot
-![screenshot](image/screenshot.gif)
+![screenshot](image/screenshot-final.gif)
+![screenshot](image/feature.gif)
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
