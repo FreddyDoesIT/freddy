@@ -30,7 +30,15 @@ For this project I have appiled:
 
 ## Deployment
 * For this project, you can click  [here](https://freddydoesit.github.io/freddy/) to check out the demostration. 
-
+* You can also do this:
+Navigate to the desktop of somewhere you prefer
+```
+$ mkdir webpage
+$ cd webpage
+$ git clone https://github.com/FreddyDoesIT/freddy.git
+$ cd freddy
+$ open index.html
+```
 ## Author
 [Frederick Lyu](https://freddydoesit.github.io/freddy/)
 

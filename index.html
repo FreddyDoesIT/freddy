@@ -50,13 +50,13 @@
 				</ul>
 			</div>
 			<div class="text-right">
-				<button class="btn btn-outline-secondary" onclick="changeColor()" id="dark_mode">Magic Trick</button>
+				<button class="btn btn-outline-secondary hvr-grow" onclick="changeColor()" id="dark_mode">Magic Trick</button>
 			</div>
 		</nav>
 	</header>
 	
 	<div class="content">
-		<div class="about_me">
+		<div class="about_me" id="about_me">
 			<section class="pt-5 pb-5 mt-0 align-items-center d-flex bg-dark parallax">
 				<div class="container-fluid text-center">
 					<br>
@@ -140,47 +140,136 @@
 		
 		<div class="container" id="projects">
 			<h2 id="projectsCaption">Recent Projects</h2>
-			<section class="pt-5 pb-5 mt-0 d-flex bg-dark text-white project1">
-				<div class="container-fluid">
-					<h3 class="text-center">Stock Trade Simulator</h3>
-					<ul>
-						<li>Implemented a fledged stock investment app in Java 8 under the MVC architecture, with both GUI and console-based text interfaces for users to interact with.</li>
-						<li>Accomplished customized buying strategies including one time or periodically, single or multiple stocks with the same weight or not, and with the freedom to create portfolios to offset investment risk.</li>
-						<li>Ensured the functionality of the application by well-thought JUnit test. Guaranteed most up-to-date stock data via the connection to Alpha Vantage API.</li>
-					</ul>
-					<br>
-					<a href="https://github.com/FreddyDoesIT/Stock-Trade-Simulator" class="btn btn-outline-light btn-lg" target="_blank">Read More</a>
-				</div>
-			</section>
+			<div class="row justify-content-center">
+				<div class="col">
+					<div class="card">
+						<img src="image/projects/stock3.jpg" class="card-img-top" alt="stock trade">
+						<div class="card-body">
+							<h5 class="card-title"><a href="https://github.com/FreddyDoesIT/Stock-Trade-Simulator" target="_blank">Stock Trade Simulator</a></h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<button type="button" class="btn btn-outline-info btn-lg hvr-curl-top-right" data-toggle="modal" data-target="#myModal1">Read More</button>
+							<!-- modal body-->
+							<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalCenterTitle">Stock Trade Simulator</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											<ul>
+												<li>Implemented a fledged stock investment app in Java 8 under the MVC architecture, with both GUI and console-based text interfaces for users to interact with.</li>
+												<li>Accomplished customized buying strategies including one time or periodically, single or multiple stocks with the same weight or not, and with the freedom to create portfolios to offset investment risk.</li>
+												<li>Ensured the functionality of the application by well-thought JUnit test. Guaranteed most up-to-date stock data via the connection to Alpha Vantage API.</li>
+											</ul>
+											<div class="text-center">
+												<span class="badge badge-pill badge-primary">Java 8</span>
+												<span class="badge badge-pill badge-primary">MVC</span>
+												<span class="badge badge-pill badge-primary">GUI</span>
+												<span class="badge badge-pill badge-primary">SWING</span>
+												<span class="badge badge-pill badge-primary">JUnit</span>
+											</div>
+											
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+										</div>
+									</div>
+								</div>
+							</div>
 
-			<section class="pt-5 pb-5 mt-3 d-flex bg-dark text-white project2">
-				<div class="container-fluid">
-					<h3 class="text-center">A Database for Managing Movie Ratings</h3>
-					<ul>
-						<li>Designed the schema on MySQL Workbench and coded the data model in MySQL via JDBC and Java on Eclipse for representing entities and relationships.</li>
-						<li>Implemented triggers to check invalid email address, ensure review of a certain movie written by a customer who should watch it within a week, and limitations on the endorsement.</li>
-						<li>Wrote stored procedures to make queries on registered users, most loyal users of the application, top-rated review, etc.</li>
-					</ul>
-					<br>
-					<a href="https://github.com/FreddyDoesIT/RDBMS-Movie-Rating-Manager" class="btn btn-outline-light btn-lg" target="_blank">Read More</a>
+						</div>
+					</div>
 				</div>
-			</section>
 
-			<section class="pt-5 pb-5 mt-3 d-flex bg-dark text-white project3">
-				<div class="container-fluid">
-					<h3 class="text-center">A Popular Card Game: Freecell</h3>
-					<ul>
-						<li>
-							Accomplished a user-defined Freecell by applying the builder design pattern to allow users to decide the number of cascades and opens in the game.
-						</li>
-						<li>
-							Tested thoroughly through well-designed JUnit tests to deliver functional features such as moving cards between open piles, cascade piles and the foundation under the game rule with prompt information.
-						</li>
-					</ul>
-					<br>
-					<a href="https://github.com/FreddyDoesIT/A-Popular-Card-Game" class="btn btn-outline-light btn-lg" target="_blank">Read More</a>
+				<div class="col">
+					<div class="card">
+						<img src="image/projects/movies.jpg" class="card-img-top" alt="movie rater">
+						<div class="card-body">
+							<h5 class="card-title"><a href="https://github.com/FreddyDoesIT/RDBMS-Movie-Rating-Manager" target="_blank">A Database for Managing Movie Ratings</a></h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<button type="button" class="btn btn-outline-info btn-lg hvr-curl-top-right" data-toggle="modal" data-target="#myModal2">Read More</button>
+							<!-- modal body-->
+							<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalCenterTitle">A Database for Managing Movie Ratings</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											<ul>
+												<li>Designed the schema on MySQL Workbench and coded the data model in MySQL via JDBC and Java on Eclipse for representing entities and relationships.</li>
+												<li>Implemented triggers to check invalid email address, ensure review of a certain movie written by a customer who should watch it within a week, and limitations on the endorsement.</li>
+												<li>Wrote stored procedures to make queries on registered users, most loyal users of the application, top-rated review, etc.</li>
+											</ul>
+											<div class="text-center">
+												<span class="badge badge-pill badge-primary">My SQL</span>
+												<span class="badge badge-pill badge-primary">MySQL Workbench</span>
+												<span class="badge badge-pill badge-primary">JDBC</span>
+												<span class="badge badge-pill badge-primary">Java</span>
+											</div>
+											
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
 				</div>
-			</section>
+
+				<div class="col">
+					<div class="card">
+						<img src="image/projects/freecell4.jpeg" class="card-img-top" alt="freecell">
+						<div class="card-body">
+							<h5 class="card-title"><a href="https://github.com/FreddyDoesIT/A-Popular-Card-Game" target="_blank"> A Popular Card Game: Freecell</a></h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<button type="button" class="btn btn-outline-info btn-lg hvr-curl-top-right" data-toggle="modal" data-target="#myModal3">Read More</button>
+							<!-- modal body-->
+							<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalCenterTitle">A Popular Card Game: Freecell</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											<ul>
+												<li>
+													Accomplished a user-defined Freecell by applying the builder design pattern to allow users to decide the number of cascades and opens in the game.
+												</li>
+												<li>
+													Tested thoroughly through well-designed JUnit tests to deliver functional features such as moving cards between open piles, cascade piles and the foundation under the game rule with prompt information.
+												</li>
+											</ul>
+											<div class="text-center">
+												<span class="badge badge-pill badge-primary">JUnit tests</span>
+												<span class="badge badge-pill badge-primary">Builder Design Pattern</span>
+											</div>
+											
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				
+			</div>
 
 		</div>
 

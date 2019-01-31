@@ -22,11 +22,12 @@ $(document).ready(function(){
 });
 
 function changeColor(){
-  if (document.getElementById('body').style.backgroundColor === 'cadetblue') {
-    document.getElementById('body').style.backgroundColor = 'ivory'
-  }
-  else{
-    document.getElementById('body').style.backgroundColor = 'cadetblue';
-  }
-  
+    var color = ["cadetblue", "darkgray", "ivory", "cornflowerblue"];
+
+    if (color.includes(document.getElementById('body').style.backgroundColor)) {
+        document.getElementById('body').style.backgroundColor = color[Math.floor(Math.random() * color.length)];
+
+    } else{
+     document.getElementById('body').style.backgroundColor = 'ivory';
+   }
 }
